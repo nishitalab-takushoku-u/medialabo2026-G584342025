@@ -1,0 +1,17 @@
+h1{
+    color:green;
+    text-shadow: 1px 1px 1px black;
+    background-color:rgba(101, 116, 215, 0.388);
+    background: linear-gradient(to right,darkblue,rgba(101, 116, 215, 0.388));
+}
+h2,h3{
+    color:greenyellow;
+    text-shadow: 1px 1px 2px black;
+
+}
+p{
+    background-color:white;
+}
+*{
+    background-color:aqua;
+}

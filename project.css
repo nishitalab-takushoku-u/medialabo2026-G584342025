@@ -1,0 +1,13 @@
+
+h1{
+    border-bottom:dotted 15px orange;
+}
+h2{
+    background-color:rgba(243, 238, 2, 0.782);
+}
+h3{
+    font-style:italic;
+}
+*{
+    background:linear-gradient(to right,white,rgb(253, 69, 69));
+}
