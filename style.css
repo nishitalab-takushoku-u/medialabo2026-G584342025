@@ -1,17 +1,27 @@
 h1{
     color:green;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px white;
     background-color:rgba(101, 116, 215, 0.388);
     background: linear-gradient(to right,darkblue,rgba(101, 116, 215, 0.388));
 }
 h2,h3{
     color:greenyellow;
     text-shadow: 1px 1px 2px black;
+    border-bottom: solid 5px greenyellow;
 
 }
 p{
     background-color:white;
+    border:thick double blue;
+    padding:5px;
 }
 *{
     background-color:aqua;
+}
+a:hover{
+    color:rgb(247, 247, 167);
+    text-shadow: 1px 1px 3px black;
+}
+a{
+    background-color:white;
 }
