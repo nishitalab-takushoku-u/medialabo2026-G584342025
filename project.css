@@ -8,6 +8,17 @@ h2{
 h3{
     font-style:italic;
 }
-*{
+body{
     background:linear-gradient(to right,white,rgb(253, 69, 69));
+}
+div#zentai{
+    display:flex;
+    flex-direction: column;
+    background-color:yellow;
+    grid-gap:10px;
+
+}
+div#zentai > div {
+	padding-left: 20px;
+    
 }
