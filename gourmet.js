@@ -19,6 +19,64 @@ function print(data) {
 
 // 課題5-1 の関数 printDom() はここに記述すること
 function printDom(data) {
+  let div = document.createElement('div');
+  let body = document.querySelector('body');
+  body.insertAdjacentElement('beforeend', div);
+  div.setAttribute('id', 'result');
+  let di = document.createElement('div');
+  di.setAttribute('id', 'zentai');
+  div.insertAdjacentElement('beforeend', di);
+  let d1 = document.createElement('div');
+  di.insertAdjacentElement('beforeend', d1);
+  let u1 = document.createElement('ul');
+  d1.insertAdjacentElement('beforeend', u1);
+  let l1 = document.createElement('li');
+  u1.insertAdjacentElement('beforeend', l1);
+  let h2_1 = document.createElement('h2');
+  l1.insertAdjacentElement('beforeend', h2_1);
+  h2_1.textContent = "検索結果1件目";
+  let h3_1 = document.createElement('h3');
+  d1.insertAdjacentElement('beforeend', h3_1);
+  h3_1.textContent = "店舗名：" + data.results.shop[0].name;
+  let p1_1 = document.createElement('p');
+  d1.insertAdjacentElement('beforeend', p1_1);
+  p1_1.textContent = "住所：" + data.results.shop[0].address;
+  let p1_2 = document.createElement('p');
+  d1.insertAdjacentElement('beforeend', p1_2);
+  p1_2.textContent = "予算：" + data.results.shop[0].budget.name;
+  let p1_3 = document.createElement('p');
+  d1.insertAdjacentElement('beforeend', p1_3);
+  p1_3.textContent = "営業時間：" + data.results.shop[0].open;
+  let p1_4 = document.createElement('p');
+  d1.insertAdjacentElement('beforeend', p1_4);
+  p1_4.textContent = "最寄駅：" + data.results.shop[0].station_name;
+  let d2 = document.createElement('div');
+  di.insertAdjacentElement('beforeend', d2);
+  let u2 = document.createElement('ul');
+  d2.insertAdjacentElement('beforeend', u2);
+  let l2 = document.createElement('li');
+  u2.insertAdjacentElement('beforeend', l2);
+  let h2_2 = document.createElement('h2');
+  l2.insertAdjacentElement('beforeend', h2_2);
+  h2_2.textContent = "検索結果2件目";
+  let h3_2 = document.createElement('h3');
+  d2.insertAdjacentElement('beforeend', h3_2);
+  h3_2.textContent = "店舗名：" + data.results.shop[1].name;
+  let p2_1 = document.createElement('p');
+  d2.insertAdjacentElement('beforeend', p2_1);
+  p2_1.textContent = "住所：" + data.results.shop[1].address;
+  let p2_2 = document.createElement('p');
+  d2.insertAdjacentElement('beforeend', p2_2);
+  p2_2.textContent = "予算：" + data.results.shop[1].budget.name;
+  let p2_3 = document.createElement('p');
+  d2.insertAdjacentElement('beforeend', p2_3);
+  p2_3.textContent = "営業時間：" + data.results.shop[1].open;
+  let p2_4 = document.createElement('p');
+  d2.insertAdjacentElement('beforeend', p2_4);
+  p2_4.textContent = "最寄駅：" + data.results.shop[1].station_name;
+
+
+
 
 }
 
